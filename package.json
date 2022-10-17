@@ -1,0 +1,20 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "wheather.js",
+  "bin": {
+    "wheather": "wheather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "wheather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trophimchuk Mikhail",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.1.0"
+  }
+}
